@@ -1,0 +1,301 @@
+# ErasmusMC ontology file
+VR 1.0
+ON Anni2_1_June2009
+--
+NS Voc
+ID MSH
+NA MeSH
+--
+NS Voc
+ID SNOMEDCT
+NA SNOMED Clinical Terms
+--
+NS SemType
+ID 47
+NA Disease or Syndrome
+DF A condition which alters or interferes with a normal process, state, or activity of an organism.  It is usually characterized by the abnormal functioning of one or more of the host's systems, parts, or organs.  Included here is a complex of symptoms descriptive of a disorder.
+--
+ID 9187
+NA Coccidiosis
+TM Coccidiosis	@match=ci,no
+TM Coccidiosis	@lang=es;match=ci,no
+DF Protozoan infection found in animals and man. It is caused by several different genera of COCCIDIA. 
+DB UMLS_C0009187
+ST 47
+VO MSH
+VO SNOMEDCT
+DI lo
+--
+ID 24530
+NA test
+TM Malaria	@match=no
+TM Malaria NOS	@match=ci,no
+TM Plasmodium Infections	@match=ci,no
+TM Remittent Fever	@match=ci,no
+TM Paludism	@match=ci,no
+TM Plasmodiosis	@match=ci,no
+TM Malarial fever	@match=ci,no
+TM Malaria (disorder)	@match=ci,no
+TM Marsh Fever	@match=ci,no
+TM Malaria	@lang=es;match=ci,no
+DB UMLS_C0024530
+ST 47
+VO MSH
+VO SNOMEDCT
+DI lo
+PA 9187
+--
+ID 3031092
+NA MYC
+TM MYC
+TM C-MYC
+TM Myc
+TM Niard
+TM myelocytomatosis viral oncogene homolog (avian)	@match=ci
+TM myelocytomatosis oncogene	@match=ci
+TM Transcription factor p64	@match=ci
+TM Nird
+TM c-Myc
+TM Myc proto-oncogene protein	@match=ci
+TM v-myc myelocytomatosis viral oncogene homolog (avian)	@match=ci
+TM Myc2	@match=ci
+TM myc proto-oncogene protein	@match=ci
+TM c-myc
+TM Transcription factor p-64	@match=ci
+TM Myc-II
+TM Myc-2	@match=ci
+DB GD_120208
+DB GD_3130
+DB HO_31092
+DB RQ_NM_002467
+DB EG_17869
+DB EG_24577
+DB EG_4609
+DB RGD_3130
+DB OM_190080
+DB HG_7553
+DB SP_P01106
+DB SP_P01108
+DB SP_P09416
+DB SP_Q6WDF7
+DB UG_Hs.202453
+DB MGI_97250
+DB AF_1368308_at
+DB AF_1424942_a_at
+DB AF_202431_s_at
+DB AF_239931_at
+ST 116
+VO GENE
+VO HOMOLOGENE
+DI st
+--
+ID 3003921
+NA MYCL1
+TM MYCL1	@match=ci
+TM v-myc myelocytomatosis viral oncogene homolog 1, lung carcinoma derived (avian)	@match=ci
+TM oncogene lmyc	@match=ci
+TM l-myc-1 proto-oncogene	@match=ci
+TM Lmyc1	@match=ci
+TM myc-related gene from lung cancer	@match=ci
+TM LMYC
+TM MYCL
+TM Oncogene MYC, lung carcinoma-derived	@match=ci
+TM l-myc protein	@match=ci
+TM Lmyc-1	@match=ci
+TM Mycl1	@match=ci
+TM L-myc-1 proto-oncogene protein	@match=ci
+TM  MYCL
+TM v-myc myelocytomatosis viral oncogene homolog 1, lung carcinoma derived (avian) (mapped)	@match=ci
+TM v-myc avian myelocytomatosis viral oncogene homolog 1, lung carcinoma derived	@match=ci
+TM MYCL-I
+TM MYCL-1	@match=ci
+TM Lmyc-I
+TM Mycl-I
+TM Mycl-1	@match=ci
+DB GD_120706
+DB GD_1588591
+DB HO_3921
+DB RQ_NM_005376
+DB EG_16918
+DB EG_298506
+DB EG_4610
+DB RGD_1588591
+DB OM_164850
+DB HG_7555
+DB SP_P10166
+DB SP_P12524
+DB SP_Q6TLI1
+DB UG_Hs.437922
+DB MGI_96799
+DB AF_1422087_at
+DB AF_1422088_at
+DB AF_214058_at
+ST 116
+VO GENE
+VO HOMOLOGENE
+DI st
+--
+ID 3003922
+NA MYCN
+TM MYCN
+TM v-myc myelocytomatosis viral related oncogene, neuroblastoma derived (avian) (mapped)	@match=ci
+TM Mycn
+TM N-myc
+TM ODED
+TM v-myc myelocytomatosis viral related oncogene, neuroblastoma derived	@match=ci
+TM v-myc avian myelocytomatosis viral related oncogene, neuroblastoma derived	@match=ci
+TM Nmyc-1	@match=ci
+TM neuroblastoma-derived v-myc avian myelocytomatosis viral related oncogene	@match=ci
+TM v-myc myelocytomatosis viral related oncogene, neuroblastoma derived (avian)	@match=ci
+TM N-MYC PROTO-ONCOGENE PROTEIN	@match=ci
+TM MODED
+TM Nmyc1	@match=ci
+TM neuroblastoma MYC oncogene	@match=ci
+TM pp65/67	@match=ci
+TM Nmyc
+TM oncogene NMYC	@match=ci
+TM NMYC
+TM Oncogene NMYC	@match=ci
+TM N-myc proto-oncogene protein	@match=ci
+TM Nmyc-I
+DB GD_120527
+DB GD_1584995
+DB HO_3922
+DB RQ_NM_005378
+DB EG_18109
+DB EG_298894
+DB EG_4613
+DB RGD_1584995
+DB OM_164840
+DB HG_7559
+DB SP_P03966
+DB SP_Q53XS5
+DB SP_Q63379
+DB UG_Hs.25960
+DB MGI_97357
+DB AF_1417155_at
+DB AF_1425922_a_at
+DB AF_1425923_at
+DB AF_209756_s_at
+DB AF_209757_s_at
+DB AF_211377_x_at
+DB AF_234376_at
+ST 116
+VO GENE
+VO HOMOLOGENE
+DI st
+--
+ID 3020128
+NA L1CAM
+TM L1CAM	@match=ci
+TM neural cell adhesion molecule L1	@match=ci
+TM NEURAL CELL ADHESION MOLECULE L1	@match=ci
+TM Neural cell adhesion molecule L1	@match=ci
+TM N-CAML1	@match=ci
+TM L1cam	@match=ci
+TM MIC5	@match=ci
+TM HSAS
+TM antigen identified by monoclonal antibody R1	@match=ci
+TM L1 cell adhesion molecule (hydrocephalus, stenosis of aqueduct of Sylvius 1, MASA (mental retardation, aphasia, shuffling gait and adducted thumbs) syndrome, spastic paraplegia 1)	@match=ci
+TM CD171 antigen	@match=ci
+TM HSAS1	@match=ci
+TM S10	@match=ci
+TM CAML1	@match=ci
+TM NCAM-L1	@match=ci
+TM MASA
+TM  MIC5	@match=ci
+TM L1 cell adhesion molecule	@match=ci
+TM SPG1	@match=ci
+TM CD171	@match=ci
+TM N-CAM L1	@match=ci
+TM neural cell adhesion molecule L-I	@match=ci
+TM neural cell adhesion molecule L-1	@match=ci
+TM NEURAL CELL ADHESION MOLECULE L-I	@match=ci
+TM NEURAL CELL ADHESION MOLECULE L-1	@match=ci
+TM Neural cell adhesion molecule L-I	@match=ci
+TM Neural cell adhesion molecule L-1	@match=ci
+TM N-CAML-I
+TM N-CAML-1	@match=ci
+TM MIC-V
+TM MIC-5	@match=ci
+TM antigen identified by monoclonal antibody R-I	@match=ci
+TM antigen identified by monoclonal antibody R-1	@match=ci
+TM HSAS-I
+TM HSAS-1	@match=ci
+TM CAML-I
+TM CAML-1	@match=ci
+TM NCAM-L-I
+TM NCAM-L-1	@match=ci
+TM  MIC-V
+TM  MIC-5	@match=ci
+TM SPG-I
+TM SPG-1	@match=ci
+TM CD-171	@match=ci
+TM N-CAM L-I	@match=ci
+TM N-CAM L-1	@match=ci
+DB GD_120133
+DB GD_120526
+DB GD_619777
+DB HO_20128
+DB RQ_NM_024003
+DB EG_16728
+DB EG_3897
+DB EG_50687
+DB RGD_619777
+DB OM_308840
+DB HG_6470
+DB SP_P11627
+DB SP_P32004
+DB SP_Q05695
+DB UG_Hs.522818
+DB MGI_96721
+DB AF_1369213_at
+DB AF_1421958_at
+DB AF_1450435_at
+DB AF_204584_at
+DB AF_204585_s_at
+ST 116
+VO GENE
+VO HOMOLOGENE
+DI st
+--
+ID 3000168
+NA ICAM1
+TM ICAM-1	@match=ci
+TM CD54 antigen	@match=ci
+TM ICAM-I
+TM intercellular adhesion molecule I	@match=ci
+TM intercellular adhesion molecule1	@match=ci
+TM Icam-I
+TM Icam-1	@match=ci
+TM CD-54	@match=ci
+TM BB-II
+TM BB-2	@match=ci
+TM Intercellular adhesion molecule I	@match=ci
+TM Intercellular adhesion molecule1	@match=ci
+TM Intercellular adhesion molecule-I	@match=ci
+DB GD_120076
+DB GD_2857
+DB HO_168
+DB RQ_NM_000201
+DB EG_15894
+DB EG_25464
+DB EG_3383
+DB RGD_2857
+DB OM_147840
+DB HG_5344
+DB SP_Q00238
+DB SP_Q15463
+DB UG_Hs.643447
+DB AF_1387202_at
+DB AF_1424067_at
+DB AF_1427805_at
+DB AF_1427806_at
+DB AF_202637_s_at
+DB AF_202638_s_at
+DB AF_215485_s_at
+ST 116
+VO GENE
+VO HOMOLOGENE
+DI st
+--
